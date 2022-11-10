@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Make executable') {
             steps {
-                bat('..\scripts\fibonacci.bat')
+                bat('scripts\fibonacci.bat')
             }
         }
         stage('Relative path') {
